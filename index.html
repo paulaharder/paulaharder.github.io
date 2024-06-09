@@ -1,15 +1,19 @@
 ---
-layout: default
-title: Paula Harder
+layout: main
+title: Home
 ---
-<div class="About">
-	<h1>Paula Harder</h1>
-    <img src="/images/profil3.jpg" width=200>
-	<p> *updates soon*
+<div class="columns is-vcentered">
+      <div class="column is-one-quarter content">
+        <figure class="image">
+          <img src="/assets/images/profil3.jpg">
+        </figure>
+      </div>
+      <div class="column is-three-quarters content">
+        <h1>{{ site.title }}</h1>
+        {% capture description %}{% include description.md %}{% endcapture %}
+        {{ description | markdownify }}
+        <h4>Contact</h4>
+        <p>paula.harder at mila.quebec · <a href="https://twitter.com/PaulaHarder8">Twitter</a></p>
+      </div>
+</div>
 
-I am an incoming postdoctoral fellow at Mila Quebec AI Institute and McGill University. I am working on improving deep learning models to be useful in weather and climate modeling, this includes post-processing, emulation and physics-constrained approaches. 
-
-Previously I did my PhD research at the Fraunhofer Institute (ITWM) and the computer science department of TU Kaiserslautern in collaboration with the University of Oxford. 
-</p>
-
-</div><!-- /.About -->

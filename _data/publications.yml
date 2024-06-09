@@ -1,0 +1,44 @@
+- title: "Multi-variable hard physical constraints for climate model downscaling"
+  authors:
+    - Jose González-Abad
+    - Alex Hernandez-Garcia
+    - Paula Harder
+    - David Rolnick
+    - José Manuel Gutiérrez
+  year: 2023
+  journal: arXiv:2308.01868
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2308.01868
+- title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
+  authors:
+    - Qidong Yang
+    - Alex Hernandez-Garcia
+    - Paula Harder
+    - Venkatesh Ramesh
+    - Prasanna Sattegeri
+    - Daniela Szwarcman
+    - Campbell D. Watson
+    - David Rolnick
+  year: 2023
+  journal: arXiv:2305.14452
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2305.14452
+- title: "Hard-constrained deep learning for climate downscaling "
+  authors:
+    - Paula Harder
+    - Alex Hernandez-Garcia
+    - Venkatesh Ramesh
+    - Qidong Yang
+    - Prasanna Sattigeri
+    - Daniela Szwarcman
+    - Campbell Watson
+    - David Rolnick
+  year: 2023
+  journal: Journal of Machine Learning Research (JMLR)
+  tags:
+    - tag: JMLR
+      link: https://jmlr.org/papers/v24/23-0158.html
+    - tag: arXiv
+      link: https://arxiv.org/abs/2208.05424
