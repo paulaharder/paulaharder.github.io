@@ -23,34 +23,8 @@ twitter:
 description: Paula Harder is an incoming postdoc at Mila (Montreal), working with Prof. David Rolnick. 
 author: Paula Harder
 url: https://paulaharder.github.io
-logo: /assets/images/logo1.png
 
-# Reading Files
-include:
-  - _pages
-  - _posters
 
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
 
 # Build settings
 markdown: kramdown
