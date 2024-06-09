@@ -24,7 +24,9 @@ description: Paula Harder is an incoming postdoc at Mila (Montreal), working wit
 author: Paula Harder
 url: https://paulaharder.github.io
 
-
+# Reading Files
+include:
+  - _pages
 
 # Build settings
 markdown: kramdown
