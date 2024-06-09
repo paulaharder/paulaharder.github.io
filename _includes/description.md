@@ -1,4 +1,4 @@
-I use the [pronouns _she/elle_](http://pronoun.is/she).
+This website is currently under construction.
 
 #### Brief academic bio
 
