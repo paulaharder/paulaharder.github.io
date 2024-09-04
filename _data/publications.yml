@@ -42,7 +42,7 @@
       link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
-  - title: "ClimateBench v1. 0: A benchmark for data‐driven climate projections "
+- title: "ClimateBench v1. 0: A benchmark for data‐driven climate projections "
   authors:
     - Duncan Watson‐Parris
     - Yuhan Rao
