@@ -42,3 +42,29 @@
       link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
+  - title: "ClimateBench v1. 0: A benchmark for data‐driven climate projections "
+  authors:
+    - Duncan Watson‐Parris
+    - Yuhan Rao
+    - Dirk Olivié
+    - Øyvind Seland
+    - Peer Nowack
+    - Gustau Camps‐Valls
+    - Philip Stier
+    - Shahine Bouabid
+    - Maura Dewey
+    - Emilie Fons
+    - Jessenia Gonzalez
+    - Paula Harder
+    - Kai Jeggle
+    - Julien Lenhardt
+    - Peter Manshausen
+    - Maria Novitasari
+    - Lucile Ricard
+    - Carla Roesch
+  year: 2022
+  journal: Journal of Advances in Modeling Earth Systems (JAMES)
+  tags:
+    - tag: JAMES
+      link: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002954
+
