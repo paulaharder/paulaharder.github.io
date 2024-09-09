@@ -1,3 +1,15 @@
+- title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
+  authors:
+    - Paula Harder
+    - Franz-Josef Pfreundt
+    - Margret Keuper
+    - Janis Keuper
+  year: 2021
+  journal: 2021 International Joint Conference on Neural Networks (IJCNN)
+  tags:
+    - tag: IEEE
+      link: https://ieeexplore.ieee.org/abstract/document/9533442
+
 - title: "Multi-variable hard physical constraints for climate model downscaling"
   authors:
     - Jose González-Abad
