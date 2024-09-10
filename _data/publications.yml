@@ -1,14 +1,25 @@
-- title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
+- title: "Enhancing Regional Climate Downscaling through Advances in Machine Learning"
   authors:
+    - Neelesh Rampal
+    - Sanaa Hobeichi
+    - Peter B. Gibson
+    - Jorge Baño-Medina
+    - Gab Abramowitz
+    - Tom Beucler
+    - Jose González-Abad
+    - William Chapman
     - Paula Harder
-    - Franz-Josef Pfreundt
-    - Margret Keuper
-    - Janis Keuper
-  year: 2021
-  journal: 2021 International Joint Conference on Neural Networks (IJCNN)
+    - José Manuel Gutiérrez
+  year: 2024
+  journal: Artificial Intelligence for the Earth Systems (AIES)
+  volume: 3
+  issue: 2
+  pages: 230066
+  doi: https://doi.org/10.1175/AIES-D-23-0066.1
   tags:
-    - tag: IEEE
-      link: https://ieeexplore.ieee.org/abstract/document/9533442
+    - tag: AIES
+      link: https://doi.org/10.1175/AIES-D-23-0066.1
+
 
 - title: "Multi-variable hard physical constraints for climate model downscaling"
   authors:
@@ -80,3 +91,16 @@
     - tag: JAMES
       link: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002954
 
+- title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
+  authors:
+    - Paula Harder
+    - Franz-Josef Pfreundt
+    - Margret Keuper
+    - Janis Keuper
+  year: 2021
+  journal: 2021 International Joint Conference on Neural Networks (IJCNN)
+  tags:
+    - tag: IEEE
+      link: https://ieeexplore.ieee.org/abstract/document/9533442
+    - tag: arXiv
+      link: https://arxiv.org/abs/2103.03000
