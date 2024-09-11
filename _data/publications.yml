@@ -1,3 +1,7 @@
+
+
+
+
 - title: "Enhancing Regional Climate Downscaling through Advances in Machine Learning"
   authors:
     - Neelesh Rampal
@@ -19,6 +23,26 @@
   tags:
     - tag: AIES
       link: https://doi.org/10.1175/AIES-D-23-0066.1
+
+- title: "Superresolution of Lunar Satellite Images for Enhanced Robotic Traverse Planning: Maximizing the Value of Existing Data Products for Space Robotics"
+  authors:
+    - Jose I Delgado-Centeno
+    - Paula Harder
+    - Valentin Bickel
+    - Ben Moseley
+    - Freddie Kalaitzis
+    - Siddha Ganju
+    - Miguel Angel Olivares-Mendez
+  year: 2024
+  journal: IEEE Robotics & Automation Magazine
+  volume: 31
+  issue: 2
+  pages: 100-112
+  month: June
+  doi: https://doi.org/10.1109/MRA.2023.3276267
+  tags:
+    - tag: IEEE
+      link: https://doi.org/10.1109/MRA.2023.3276267
 
 
 - title: "Multi-variable hard physical constraints for climate model downscaling"
