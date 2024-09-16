@@ -89,6 +89,24 @@
       link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
+- title: "Generating physically-consistent high-resolution climate data with hard-constrained neural networks"
+  authors:
+    - Paula Harder
+    - Qidong Yang
+    - Venkatesh Ramesh
+    - Prasanna Sattigeri
+    - Alex Hernandez-Garcia
+    - Campbell Watson
+    - Daniela Szwarcman
+    - David Rolnick
+  year: 2022
+  journal: AAAI-FS 2022
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2208.05424
+    - tag: AAAI
+      link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2022/73/paper.pdf
+
 - title: "ClimateBench v1. 0: A benchmark for data‐driven climate projections "
   authors:
     - Duncan Watson‐Parris
