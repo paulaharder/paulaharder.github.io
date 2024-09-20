@@ -57,6 +57,9 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2308.01868
+    - tag: AAAI
+      link: https://ojs.aaai.org/index.php/AAAI-SS/article/download/27650/27423
+
 - title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
   authors:
     - Qidong Yang
@@ -89,6 +92,9 @@
       link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
+    - tag: code
+      link: https://github.com/RolnickLab/constrained-downscaling
+      
 - title: "Generating physically-consistent high-resolution climate data with hard-constrained neural networks"
   authors:
     - Paula Harder
@@ -106,6 +112,8 @@
       link: https://arxiv.org/abs/2208.05424
     - tag: AAAI
       link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2022/73/paper.pdf
+    - tag: code
+      link: https://github.com/RolnickLab/constrained-downscaling
 
 - title: "ClimateBench v1. 0: A benchmark for data‐driven climate projections "
   authors:
@@ -132,6 +140,8 @@
   tags:
     - tag: JAMES
       link: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002954
+    - tag: code
+      link: https://github.com/duncanwp/ClimateBench
 
 - title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
   authors:
@@ -146,3 +156,7 @@
       link: https://ieeexplore.ieee.org/abstract/document/9533442
     - tag: arXiv
       link: https://arxiv.org/abs/2103.03000
+    - tag: IJCNN
+      link: https://ieeexplore.ieee.org/document/9533442
+    - tag: code
+      link: https://github.com/paulaharder/SpectralAdversarialDefense
