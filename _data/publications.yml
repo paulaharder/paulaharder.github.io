@@ -75,6 +75,7 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2305.14452
+
 - title: "Hard-constrained deep learning for climate downscaling "
   authors:
     - Paula Harder
@@ -142,6 +143,24 @@
       link: https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021MS002954
     - tag: code
       link: https://github.com/duncanwp/ClimateBench
+
+      
+- title: "Physics-informed learning of aerosol microphysics"
+  authors:
+    - Paula Harder
+    - Duncan Watson-Parris
+    - Philip Stier
+    - Dominik Strassel
+    - Nicolas R. Gauger
+    - Janis Keuper
+  year: 2022
+  journal: Environmental Data Science
+  volume: 1
+  pages: e20
+  tags:
+    - tag: EDS
+      link: https://www.cambridge.org/core/journals/environmental-data-science/article/physicsinformed-learning-of-aerosol-microphysics/C468660D2AEE8E25DC3BF507517FF91A
+
 
 - title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
   authors:
