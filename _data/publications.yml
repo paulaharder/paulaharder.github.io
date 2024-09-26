@@ -75,6 +75,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2305.14452
+    - tag: ICLR
+      link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2023/59/paper.pdf
 
 - title: "Hard-constrained deep learning for climate downscaling "
   authors:
@@ -109,6 +111,8 @@
   year: 2022
   journal: AAAI-FS 2022
   tags:
+    - tag: NeurIPS
+      link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2022/73/paper.pdf
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
     - tag: AAAI
@@ -160,6 +164,26 @@
   tags:
     - tag: EDS
       link: https://www.cambridge.org/core/journals/environmental-data-science/article/physicsinformed-learning-of-aerosol-microphysics/C468660D2AEE8E25DC3BF507517FF91A
+    - tag: code
+      link: https://github.com/paulaharder/aerosol-microphysics-emulation
+    - tag: arXiv
+      link: https://arxiv.org/abs/2207.11786
+
+
+- title: "Detecting AutoAttack Perturbations in the Frequency Domain"
+  authors:
+    - Peter Lorenz
+    - Paula Harder
+    - Dominik Straßel
+    - Margret Keuper
+    - Janis Keuper
+  year: 2021
+  conference: ICML 2021 Workshop on Adversarial Machine Learning
+  tags:
+    - tag: ICML
+      link: https://icml.cc/virtual/2021/workshop/15243
+    - tag: arXiv
+      link: https://arxiv.org/abs/2111.08785
 
 
 - title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
