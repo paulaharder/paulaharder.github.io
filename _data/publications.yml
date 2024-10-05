@@ -203,3 +203,18 @@
       link: https://ieeexplore.ieee.org/document/9533442
     - tag: code
       link: https://github.com/paulaharder/SpectralAdversarialDefense
+
+- title: "Error estimates for the Cahn–Hilliard equation with dynamic boundary conditions"
+  authors:
+    - Paula Harder
+    - Balázs Kovács
+  year: 2021
+  journal: IMA Journal of Numerical Analysis
+  volume: 42
+  issue: 3
+  pages: 2589-2620
+  tags:
+    - tag: IMA
+      link: https://academic.oup.com/imajna/article-abstract/42/3/2589/6307444
+    - tag: arXiv
+      link: https://arxiv.org/pdf/2005.03349
