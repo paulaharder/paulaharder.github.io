@@ -148,6 +148,23 @@
     - tag: code
       link: https://github.com/duncanwp/ClimateBench
 
+
+- title: "Pyrocast: a Machine Learning Pipeline to Forecast Pyrocumulonimbus (PyroCb) Clouds"
+  authors:
+    - Kenza Tazi
+    - Emiliano Díaz Salas-Porras
+    - Ashwin Braude
+    - Daniel Okoh
+    - Kara D. Lamb
+    - Duncan Watson-Parris
+    - Paula Harder
+    - Nis Meinert
+  year: 2022
+  conference: NeurIPS 2022 Workshop on Tackling Climate Change with Machine Learning
+  tags:
+    - tag: NeurIPS Workshop
+      link: https://www.climatechange.ai/papers/neurips2022/71
+
       
 - title: "Physics-informed learning of aerosol microphysics"
   authors:
