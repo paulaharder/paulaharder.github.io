@@ -12,12 +12,6 @@
     source: ai
     name: ai-semantic-scholar
     type: ai
-- name: Twitter
-  link: https://twitter.com/PaulaHarder8
-  icon:
-    source: fa
-    name: fa-twitter
-    type: fab
 - name: Research Gate
   link: https://www.researchgate.net/profile/Paula-Harder
   icon:
@@ -36,3 +30,15 @@
     source: fa
     name: fa-envelope
     type: far
+- name: Twitter
+  link: https://twitter.com/PaulaHarder8
+  icon:
+    source: fa
+    name: fa-twitter
+    type: fab
+- name: LinkedIn
+  link: https://www.linkedin.com/in/paulaharder/
+  icon:
+    source: fa
+    name: fa-linkedin
+    type: fab
