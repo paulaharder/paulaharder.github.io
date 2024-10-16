@@ -24,6 +24,22 @@
     - tag: AIES
       link: https://doi.org/10.1175/AIES-D-23-0066.1
 
+- title: "Evaluating the transferability potential of deep learning models for climate downscaling"
+  authors:
+    - Ayush Prasad
+    - Paula Harder
+    - Qidong Yang
+    - Prasanna Sattegeri
+    - Daniela Szwarcman
+    - Campbell Watson
+    - David Rolnick
+  year: 2024
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2407.12517
+
+
 - title: "Superresolution of Lunar Satellite Images for Enhanced Robotic Traverse Planning: Maximizing the Value of Existing Data Products for Space Robotics"
   authors:
     - Jose I Delgado-Centeno
