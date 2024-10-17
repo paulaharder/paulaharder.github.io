@@ -61,6 +61,36 @@
       link: https://doi.org/10.1109/MRA.2023.3276267
 
 
+- title: "Towards Downscaling Global AOD with Machine Learning"
+  authors:
+    - Josh Millar
+    - Paula Harder
+    - Lilli Freischem
+    - Philipp Weiss
+    - Philip Stier
+  year: 2024
+  conference: Tackling Climate Change with Machine Learning, ICLR 2024
+  tags:
+    - tag: ICLR Workshop
+      link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2024/20/paper.pdf
+
+- title: "Climate model downscaling in central Asia: a dynamical and a neural network approach"
+  authors:
+    - Bijan Fallah
+    - Christoph Menz
+    - Emmanuele Russo
+    - Paula Harder
+    - Peter Hoffmann
+    - Iulii Didovets
+    - Fred F. Hattermann
+  year: 2023
+  journal: Geoscientific Model Development Discussions
+  pages: 1-27
+  tags:
+    - tag: GMD
+      link: https://doi.org/10.5194/gmd-2023-148
+
+
 - title: "Multi-variable hard physical constraints for climate model downscaling"
   authors:
     - Jose González-Abad
