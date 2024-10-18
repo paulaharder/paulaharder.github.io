@@ -1,5 +1,18 @@
-
-
+- title: "A Benchmark Dataset for Meteorological Downscaling"
+  authors:
+    - Michael Langguth
+    - Paula Harder
+    - Irene Schicker
+    - Ankit Patnala
+    - Sebastian Lehner
+    - Konrad Mayer
+    - Markus Dabernig
+  year: 2024
+  month: May
+  conference: Tackling Climate Change with Machine Learning Workshop, ICLR 2024
+  tags:
+    - tag: ICLR Workshop
+      link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2024/71/paper.pdf
 
 
 - title: "Enhancing Regional Climate Downscaling through Advances in Machine Learning"
@@ -105,6 +118,22 @@
       link: https://arxiv.org/abs/2308.01868
     - tag: AAAI
       link: https://ojs.aaai.org/index.php/AAAI-SS/article/download/27650/27423
+
+- title: "Reservoir Computing for Sea Surface Temperature Prediction in Earth System Digital Twins"
+  authors:
+    - Paula Harder
+    - Anna Kwa
+    - Andre Perkins
+    - Christopher Stephen Bretherton
+  year: 2023
+  conference: AGU Fall Meeting Abstracts
+  volume: 2023
+  issue: 467
+  pages: IN53C-0467
+  tags:
+    - tag: AGU
+      link: https://ui.adsabs.harvard.edu/abs/2023AGUFMIN53C0467H/abstract
+      
 
 - title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
   authors:
