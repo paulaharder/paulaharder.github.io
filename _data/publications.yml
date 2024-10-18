@@ -100,7 +100,7 @@
   journal: Geoscientific Model Development Discussions
   pages: 1-27
   tags:
-    - tag: GMD
+    - tag: GMD preprint
       link: https://doi.org/10.5194/gmd-2023-148
 
 
@@ -186,7 +186,7 @@
   year: 2022
   journal: AAAI-FS 2022
   tags:
-    - tag: NeurIPS
+    - tag: NeurIPS Workshop
       link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2022/73/paper.pdf
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
