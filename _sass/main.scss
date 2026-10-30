@@ -119,7 +119,7 @@ p { margin: 0 0 1em; }
 .intro p { max-width: 40em; color: var(--ink-2); }
 .intro-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
 .portrait { margin: 0; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 5; box-shadow: var(--shadow); }
-.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
 @media (max-width: 680px) {
   .intro-inner { grid-template-columns: 1fr; }
   .intro .portrait { max-width: 160px; }
