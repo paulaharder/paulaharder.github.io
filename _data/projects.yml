@@ -24,9 +24,13 @@
     regions, and a follow-up study examines their global applicability.
   links:
     - label: RainShift
-      url: https://arxiv.org/abs/2507.04930
+      url: https://www.nature.com/articles/s41598-025-34557-4
     - label: Global transfer
       url: https://arxiv.org/abs/2512.01400
+    - label: Code
+      url: https://github.com/RolnickLab/downscaling-transferability
+    - label: Dataset
+      url: https://huggingface.co/datasets/RainShift/rainshift/blob/main/README.md
 
 - title: Fourier neural operators for downscaling
   when: Mila · 2023
@@ -35,10 +39,22 @@
   summary: >-
     A downscaling model based on Fourier neural operators is trained at one upsampling
     factor and can then produce outputs at arbitrary higher resolutions, evaluated on
-    fluid-dynamics simulations and ERA5 data.
+    fluid-dynamics simulations and ERA5 data. The work was led by Qidong Yang.
   links:
     - label: Paper
       url: https://arxiv.org/abs/2305.14452
+    - label: Code
+      url: https://github.com/qd-yang/DSFNO
+
+- title: Reservoir computing for sea surface temperature
+  when: Allen Institute for AI (Ai2) · 2023
+  summary: >-
+    Together with the climate modeling team at Ai2, we tested reservoir computing, a
+    recurrent machine-learning method in which only the output layer is trained, for
+    predicting sea surface temperature as a component of Earth system digital twins.
+  links:
+    - label: AGU abstract
+      url: https://ui.adsabs.harvard.edu/abs/2023AGUFMIN53C0467H/abstract
 
 - title: Physically constrained downscaling
   when: Mila · 2022–2023
@@ -94,3 +110,5 @@
   links:
     - label: Paper
       url: https://arxiv.org/abs/2011.07017
+    - label: Code
+      url: https://github.com/paulaharder/hackathon-ci-2020

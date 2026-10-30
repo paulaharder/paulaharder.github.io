@@ -17,6 +17,8 @@
       link: https://arxiv.org/abs/2604.03300
     - tag: ECMWF news
       link: https://www.ecmwf.int/node/38405
+    - tag: EGU 2026
+      link: https://doi.org/10.5194/egusphere-egu26-18643
 
 - title: "Reconstructing Carbon Monoxide Reanalysis with Machine Learning"
   authors:
@@ -28,6 +30,34 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2602.15056
+    - tag: EGU 2026
+      link: https://doi.org/10.5194/egusphere-egu26-13979
+
+- title: "Benchmarking the geographic generalization of deep learning models for precipitation downscaling"
+  authors:
+    - Paula Harder
+    - Luca Schmidt
+    - Francis Pelletier
+    - Nicole Ludwig
+    - Matthew Chantry
+    - Christian Lessig
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  year: 2026
+  journal: Scientific Reports
+  volume: 16
+  pages: 3733
+  doi: https://doi.org/10.1038/s41598-025-34557-4
+  featured: true
+  tags:
+    - tag: Sci. Rep.
+      link: https://www.nature.com/articles/s41598-025-34557-4
+    - tag: arXiv (RainShift)
+      link: https://arxiv.org/abs/2507.04930
+    - tag: code
+      link: https://github.com/RolnickLab/downscaling-transferability
+    - tag: dataset
+      link: https://huggingface.co/datasets/RainShift/rainshift/blob/main/README.md
 
 - title: "On Global Applicability and Location Transferability of Generative Deep Learning Models for Precipitation Downscaling"
   authors:
@@ -42,22 +72,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2512.01400
-
-- title: "RainShift: A Benchmark for Precipitation Downscaling Across Geographies"
-  authors:
-    - Paula Harder
-    - Luca Schmidt
-    - Francis Pelletier
-    - Nicole Ludwig
-    - Matthew Chantry
-    - Christian Lessig
-    - Alex Hernandez-Garcia
-    - David Rolnick
-  year: 2025
-  journal: arXiv preprint
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2507.04930
+    - tag: EGU 2025
+      link: https://doi.org/10.5194/egusphere-egu25-21537
 
 - title: "Climate Variable Downscaling with Conditional Normalizing Flows"
   authors:
@@ -224,6 +240,8 @@
       link: https://arxiv.org/abs/2305.14452
     - tag: ICLR
       link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2023/59/paper.pdf
+    - tag: code
+      link: https://github.com/qd-yang/DSFNO
 
 - title: "Hard-constrained deep learning for climate downscaling "
   authors:
@@ -297,6 +315,15 @@
       link: https://github.com/duncanwp/ClimateBench
 
 
+- title: "Abstract error analysis for Cahn–Hilliard type equations with dynamic boundary conditions"
+  authors:
+    - Paula Harder
+  year: 2022
+  journal: Master's thesis, arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2208.04242
+
 - title: "Identifying the Causes of Pyrocumulonimbus (PyroCb)"
   authors:
     - Emiliano Díaz Salas-Porras
@@ -368,6 +395,20 @@
       link: https://arxiv.org/abs/2111.08785
 
 
+- title: "Emulating Aerosol Microphysics with Machine Learning"
+  authors:
+    - Paula Harder
+    - Duncan Watson-Parris
+    - Dominik Strassel
+    - Nicolas Gauger
+    - Philip Stier
+    - Janis Keuper
+  year: 2021
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2109.10593
+
 - title: "SpectralDefense: Detecting adversarial attacks on CNNs in the Fourier domain"
   authors:
     - Paula Harder
@@ -419,3 +460,5 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2011.07017
+    - tag: code
+      link: https://github.com/paulaharder/hackathon-ci-2020

@@ -8,6 +8,9 @@
 - date: Feb 2026
   text: Preprint on reconstructing carbon monoxide reanalysis with machine learning.
   url: https://arxiv.org/abs/2602.15056
+- date: Jan 2026
+  text: RainShift, a benchmark for precipitation downscaling across regions, published in Scientific Reports.
+  url: https://www.nature.com/articles/s41598-025-34557-4
 - date: Dec 2025
   text: Preprint on the global applicability of generative models for precipitation downscaling.
   url: https://arxiv.org/abs/2512.01400

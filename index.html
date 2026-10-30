@@ -79,12 +79,11 @@ body_class: home
     <div class="link-row">
       <a class="btn btn-primary" href="https://arxiv.org/abs/2604.03300">Paper (arXiv) {% include icon.html name="external" %}</a>
       <a class="btn" href="https://www.ecmwf.int/node/38405">ECMWF announcement {% include icon.html name="external" %}</a>
-      <a class="btn" href="https://charts.ecmwf.int/">Forecast charts {% include icon.html name="external" %}</a>
+      <a class="btn" href="https://charts.ecmwf.int/?facets=%7B%22Product%20type%22%3A%5B%22AIFS%20Atmospheric%20composition%22%5D%7D">Forecast charts {% include icon.html name="external" %}</a>
     </div>
     <p class="fineprint">
       AIFS-COMPO is experimental; IFS-COMPO remains the operational CAMS forecast. Ongoing work
-      covers fire emissions, emission scenarios and the use of composition observations. On
-      the charts page, filter for “AIFS Atmospheric composition”.
+      covers fire emissions, emission scenarios and the use of composition observations.
     </p>
   </div>
 </section>
@@ -108,8 +107,8 @@ body_class: home
 <section id="projects" class="band band-soft">
   <div class="wrap">
     <p class="section-label">Other projects</p>
-    <h2>Machine learning for weather and climate</h2>
-    <p class="section-sub">Related and earlier work at ECMWF, Mila, the Frontier Development Lab and during my PhD.</p>
+    <h2>Machine learning for Earth System Modeling</h2>
+    <p class="section-sub">Related and earlier work at ECMWF, Mila, the Allen Institute for AI (Ai2), the Frontier Development Lab and during my PhD.</p>
     <div class="projects">
       {% for p in site.data.projects %}
         <article class="project">
