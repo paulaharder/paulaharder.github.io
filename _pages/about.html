@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About me
-eyebrow: Paula Harder
-lead: I turn machine learning into forecasts that people can use, with a focus on the composition of the atmosphere.
+lead: Machine learning scientist working on forecasting atmospheric composition.
 permalink: /about
 redirect_from:
   - /bio
@@ -12,13 +11,13 @@ redirect_from:
   <div>
     <h2>Now</h2>
     <p>
-      I'm a machine learning scientist at ECMWF, the European Centre for Medium-Range Weather
-      Forecasts, where I work for the Copernicus Atmosphere Monitoring Service (CAMS). I build
-      <a href="/#aifs-compo">AIFS-COMPO</a>, a data-driven system that forecasts aerosols,
-      reactive gases and air quality for the whole globe. The work runs from training data and
-      model design to evaluation against real-world observations, and it is built on
-      <a href="https://github.com/ecmwf/anemoi-core">Anemoi</a>, the open-source framework for
-      AI weather models.
+      I am a machine learning scientist at ECMWF, the European Centre for Medium-Range Weather
+      Forecasts, working on atmospheric composition for the Copernicus Atmosphere Monitoring
+      Service (CAMS). I contribute to <a href="/#aifs-compo">AIFS-COMPO</a>, a data-driven
+      system for forecasting aerosols, reactive gases and air quality, which is developed with
+      many colleagues at ECMWF. My work covers training data, model design and evaluation
+      against observations, within the open-source
+      <a href="https://github.com/ecmwf/anemoi-core">Anemoi</a> framework.
     </p>
 
     <h2>Before</h2>
@@ -30,11 +29,11 @@ redirect_from:
       <li><span>Tübingen</span>Master's degree in mathematics, specialising in numerical analysis with Christian Lubich.</li>
     </ul>
 
-    <h2>What I care about</h2>
+    <h2>Research interests</h2>
     <p>
-      Machine learning that holds up in practice: models that respect physics, keep working
-      when conditions change, and get extreme events right, because those are the days when
-      a forecast matters most.
+      Machine learning for environmental, weather and climate modelling, in particular
+      physical consistency, generalisation under distribution shift, and the representation
+      of extreme events.
     </p>
   </div>
 
@@ -43,8 +42,8 @@ redirect_from:
       <img src="/assets/images/profil3.jpg" alt="Portrait of Paula Harder" width="1401" height="2100">
     </figure>
     <p class="muted">Pronouns: she/her</p>
-    <a class="btn btn-primary btn-block" href="mailto:{{ site.email }}">Email me</a>
-    <a class="btn btn-ghost btn-block" href="/cv">CV</a>
+    <a class="btn btn-primary btn-block" href="mailto:{{ site.email }}">Email</a>
+    <a class="btn btn-block" href="/cv">CV</a>
   </aside>
 </div>
 
@@ -53,4 +52,4 @@ redirect_from:
 {% for item in featured %}
   {% include publication-item.html %}
 {% endfor %}
-<p><a class="text-link" href="/publications">All publications {% include icon.html name="arrow" %}</a></p>
+<p><a class="text-link" href="/publications">All publications</a></p>

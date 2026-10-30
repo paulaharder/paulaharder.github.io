@@ -1,51 +1,45 @@
 # Project cards on the home page, in display order (AIFS-COMPO has its own section).
-# `accent` picks the card colour: dust, smoke, sea, ozone or rain.
-- title: Filling the gap in the carbon monoxide record
+- title: Reconstructing carbon monoxide reanalysis
   when: ECMWF · 2026
-  accent: smoke
   summary: >-
-    The MOPITT satellite stopped delivering carbon monoxide data in early 2025, and
-    the CAMS reanalysis loses quality without it. A machine-learning model learns the
-    difference between the reanalysis and a free-running control simulation, so the
-    record can be reconstructed where observations are missing.
+    The end of MOPITT carbon monoxide observations in early 2025 affects the quality of
+    the CAMS reanalysis. We test whether a machine-learning model, trained on the
+    differences between the reanalysis and a control simulation, can reconstruct
+    monthly-mean total-column carbon monoxide without these observations.
   links:
     - label: Paper
       url: https://arxiv.org/abs/2602.15056
 
-- title: Precipitation downscaling that travels
+- title: Precipitation downscaling across regions
   when: Mila · 2024–2025
-  accent: rain
   summary: >-
-    Generative models can sharpen coarse rainfall into local detail, but they are
-    usually trained on one region. RainShift is a benchmark that measures how well they
-    transfer across the globe, and a follow-up study shows what it takes to make them work
-    in places they have never seen.
+    Generative models for precipitation downscaling are usually trained and tested on a
+    single region. RainShift is a benchmark for evaluating how they transfer to other
+    regions, and a follow-up study examines their global applicability.
   links:
     - label: RainShift
       url: https://arxiv.org/abs/2507.04930
     - label: Global transfer
       url: https://arxiv.org/abs/2512.01400
 
-- title: Downscaling that respects physics
+- title: Physically constrained downscaling
   when: Mila · 2022–2023
-  accent: sea
   summary: >-
-    Neural networks that add detail to climate data can quietly break conservation
-    laws. Hard-constraint layers guarantee that mass and energy add up exactly, and they
-    make the models more accurate as well as more trustworthy.
+    Neural networks for climate downscaling do not by default conserve quantities such
+    as mass. Hard-constraint layers enforce conservation exactly, and in our experiments
+    they also improved predictive skill.
   links:
     - label: JMLR paper
       url: https://jmlr.org/papers/v24/23-0158.html
     - label: Code
       url: https://github.com/RolnickLab/constrained-downscaling
 
-- title: Fast aerosol microphysics
+- title: Emulating aerosol microphysics
   when: PhD, Fraunhofer ITWM & Oxford · 2019–2022
-  accent: dust
   summary: >-
-    Aerosol microphysics is one of the most expensive parts of a climate model. A
-    physics-informed neural network emulates it at a fraction of the cost while
-    keeping aerosol mass consistent.
+    Aerosol microphysics is a computationally expensive component of climate models. We
+    trained physics-informed neural networks to emulate it at a fraction of the cost
+    while keeping aerosol mass consistent.
   links:
     - label: Paper
       url: https://www.cambridge.org/core/journals/environmental-data-science/article/physicsinformed-learning-of-aerosol-microphysics/C468660D2AEE8E25DC3BF507517FF91A
@@ -54,10 +48,9 @@
 
 - title: ClimateBench
   when: Oxford · 2022
-  accent: ozone
   summary: >-
-    A shared benchmark for machine-learning emulators of climate projections, so that
-    different approaches can be compared on the same data and the same scores.
+    A benchmark dataset and evaluation protocol for machine-learning emulators of
+    climate projections.
   links:
     - label: Paper
       url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954

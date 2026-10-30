@@ -4,15 +4,15 @@
 # This file is not reloaded by `jekyll serve`; restart the server after editing it.
 
 title: Paula Harder
-tagline: AI for atmospheric composition forecasting
+tagline: Machine learning for atmospheric composition forecasting
 email: paula.harder@ecmwf.int
 github_username: paulaharder
 twitter:
   username: PaulaHarder8
 description: >-
-  Paula Harder is a machine learning scientist at ECMWF, where she builds
-  AIFS-COMPO, a data-driven system that forecasts aerosols, reactive gases
-  and air quality around the globe.
+  Paula Harder is a machine learning scientist at ECMWF working on
+  data-driven forecasting of atmospheric composition, including the
+  AIFS-COMPO system.
 author: Paula Harder
 url: https://paulaharder.github.io
 lang: en

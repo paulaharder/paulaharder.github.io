@@ -1,8 +1,6 @@
 <header class="nav">
   <div class="wrap nav-inner">
-    <a class="brand" href="/">
-      <span class="brand-dot" aria-hidden="true"></span>{{ site.title }}
-    </a>
+    <a class="brand" href="/">{{ site.title }}</a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
       <span></span><span></span>
     </button>
@@ -10,7 +8,7 @@
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}"{% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a>
       {% endfor %}
-      <a class="nav-cta" href="mailto:{{ site.email }}">Get in touch</a>
+      <a href="/#contact">Contact</a>
     </nav>
   </div>
 </header>

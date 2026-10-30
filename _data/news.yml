@@ -1,13 +1,13 @@
 # "Latest" strip on the home page, newest first. Keep it to the last four or five items.
 - date: Oct 2026
-  text: ECMWF announces AIFS-COMPO, its AI system for atmospheric composition forecasting.
+  text: ECMWF introduces AIFS-COMPO, an experimental data-driven system for atmospheric composition forecasting.
   url: https://www.ecmwf.int/node/38405
 - date: Mar 2026
-  text: The AIFS-COMPO paper is out on arXiv.
+  text: Preprint describing AIFS-COMPO published on arXiv.
   url: https://arxiv.org/abs/2604.03300
 - date: Feb 2026
   text: Preprint on reconstructing carbon monoxide reanalysis with machine learning.
   url: https://arxiv.org/abs/2602.15056
 - date: Dec 2025
-  text: Preprint on making generative precipitation downscaling work across the globe.
+  text: Preprint on the global applicability of generative models for precipitation downscaling.
   url: https://arxiv.org/abs/2512.01400

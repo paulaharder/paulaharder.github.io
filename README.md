@@ -2,7 +2,7 @@
 
 Personal homepage of Paula Harder, built with Jekyll and served by GitHub Pages from `master`.
 
-- `index.html`: home page (hero, AIFS-COMPO, latest news, projects, contact).
+- `index.html`: home page (introduction, AIFS-COMPO, news, other projects, contact).
 - `_data/`: the content that changes most often, so updates rarely need HTML:
   `projects.yml` (project cards), `news.yml` (the "Latest" list),
   `publications.yml` (`featured: true` puts a paper on the About page),
