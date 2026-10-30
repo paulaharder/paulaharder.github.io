@@ -297,6 +297,22 @@
       link: https://github.com/duncanwp/ClimateBench
 
 
+- title: "Identifying the Causes of Pyrocumulonimbus (PyroCb)"
+  authors:
+    - Emiliano Díaz Salas-Porras
+    - Kenza Tazi
+    - Ashwin Braude
+    - Daniel Okoh
+    - Kara D. Lamb
+    - Duncan Watson-Parris
+    - Paula Harder
+    - Nis Meinert
+  year: 2022
+  conference: NeurIPS 2022 Workshop on Causal Machine Learning for Real-World Impact
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2211.08883
+
 - title: "Pyrocast: a Machine Learning Pipeline to Forecast Pyrocumulonimbus (PyroCb) Clouds"
   authors:
     - Kenza Tazi
@@ -384,3 +400,22 @@
       link: https://academic.oup.com/imajna/article-abstract/42/3/2589/6307444
     - tag: arXiv
       link: https://arxiv.org/pdf/2005.03349
+
+- title: "NightVision: Generating Nighttime Satellite Imagery from Infra-Red Observations"
+  authors:
+    - Paula Harder
+    - William Jones
+    - Redouane Lguensat
+    - Shahine Bouabid
+    - James Fulton
+    - Dánell Quesada-Chacón
+    - Aris Marcolongo
+    - Sofija Stefanović
+    - Yuhan Rao
+    - Peter Manshausen
+    - Duncan Watson-Parris
+  year: 2020
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2011.07017

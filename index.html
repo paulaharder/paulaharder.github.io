@@ -10,17 +10,17 @@ body_class: home
       <img src="/assets/images/profil3.jpg" alt="Portrait of Paula Harder" width="1401" height="2100">
     </figure>
     <div>
+      <p class="section-label">Machine Learning Scientist · ECMWF</p>
       <h1>Paula Harder</h1>
-      <p class="intro-role">Machine Learning Scientist, ECMWF</p>
+      <p class="intro-statement">Machine learning for forecasting atmospheric composition</p>
       <p>
-        I work on machine learning for forecasting atmospheric composition: aerosols, reactive
-        gases and air quality. At the European Centre for Medium-Range Weather Forecasts (ECMWF)
-        I contribute to AIFS-COMPO, a data-driven global composition forecasting system developed
-        together with colleagues across ECMWF and the Copernicus Atmosphere Monitoring Service
-        (CAMS).
+        At the European Centre for Medium-Range Weather Forecasts (ECMWF) I work on forecasting
+        aerosols, reactive gases and air quality with machine learning, in particular on
+        AIFS-COMPO, a data-driven global composition forecasting system developed together with
+        colleagues across ECMWF and the Copernicus Atmosphere Monitoring Service (CAMS).
       </p>
       <div class="intro-links">
-        <a class="btn btn-primary" href="#aifs-compo">AIFS-COMPO</a>
+        <a class="btn btn-primary" href="#aifs-compo">About AIFS-COMPO {% include icon.html name="arrow" %}</a>
         <a class="btn" href="/publications">Publications</a>
         <a class="btn" href="mailto:{{ site.email }}">Contact</a>
       </div>
@@ -29,7 +29,7 @@ body_class: home
 </section>
 
 <!-- AIFS-COMPO -->
-<section id="aifs-compo" class="band">
+<section id="aifs-compo" class="band band-feature">
   <div class="wrap">
     <p class="section-label">Current work</p>
     <h2>AIFS-COMPO</h2>
@@ -42,6 +42,11 @@ body_class: home
       <a href="https://github.com/ecmwf/anemoi-core">Anemoi</a>, the open-source framework for
       data-driven weather models developed by ECMWF and European meteorological services.
     </p>
+
+    <figure class="figure">
+      <img src="/assets/images/projects/aifs-compo-aod.jpg" alt="Global maps of aerosol optical depth at 550 nm from AIFS-COMPO and IFS-COMPO, three-day forecasts from 20 June 2024" width="1600" height="535" loading="lazy">
+      <figcaption>Three-day forecasts of total aerosol optical depth at 550&nbsp;nm from AIFS-COMPO (left) and IFS-COMPO (right), initialised on 20 June 2024. From Harder et al. (2026).</figcaption>
+    </figure>
 
     <div class="facts">
       <div class="fact"><span class="fact-num">187</span><span class="fact-label">forecast variables</span></div>
@@ -72,9 +77,9 @@ body_class: home
     </div>
 
     <div class="link-row">
-      <a class="btn btn-primary" href="https://arxiv.org/abs/2604.03300">Paper (arXiv)</a>
-      <a class="btn" href="https://www.ecmwf.int/node/38405">ECMWF announcement</a>
-      <a class="btn" href="https://charts.ecmwf.int/">Forecast charts</a>
+      <a class="btn btn-primary" href="https://arxiv.org/abs/2604.03300">Paper (arXiv) {% include icon.html name="external" %}</a>
+      <a class="btn" href="https://www.ecmwf.int/node/38405">ECMWF announcement {% include icon.html name="external" %}</a>
+      <a class="btn" href="https://charts.ecmwf.int/">Forecast charts {% include icon.html name="external" %}</a>
     </div>
     <p class="fineprint">
       AIFS-COMPO is experimental; IFS-COMPO remains the operational CAMS forecast. Ongoing work
@@ -104,16 +109,19 @@ body_class: home
   <div class="wrap">
     <p class="section-label">Other projects</p>
     <h2>Machine learning for weather and climate</h2>
-    <p class="section-sub">Earlier and related work at ECMWF, Mila and during my PhD.</p>
+    <p class="section-sub">Related and earlier work at ECMWF, Mila, the Frontier Development Lab and during my PhD.</p>
     <div class="projects">
       {% for p in site.data.projects %}
         <article class="project">
-          <p class="project-when">{{ p.when }}</p>
-          <h3>{{ p.title }}</h3>
-          <p>{{ p.summary }}</p>
-          <p class="project-links">
-            {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
-          </p>
+          {% if p.image %}<div class="project-figure"><img src="{{ p.image }}" alt="{{ p.alt }}" loading="lazy"></div>{% endif %}
+          <div class="project-body">
+            <p class="project-when">{{ p.when }}</p>
+            <h3>{{ p.title }}</h3>
+            <p>{{ p.summary }}</p>
+            <p class="project-links">
+              {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }} {% include icon.html name="arrow" %}</a>{% endfor %}
+            </p>
+          </div>
         </article>
       {% endfor %}
     </div>
