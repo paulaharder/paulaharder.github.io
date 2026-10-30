@@ -48,6 +48,8 @@
 
 - title: Reservoir computing for sea surface temperature
   when: Allen Institute for AI (Ai2) · 2023
+  image: /assets/images/projects/reservoir-sst.jpg
+  alt: Global map of the R² score of reservoir-computing sea surface temperature forecasts over a rollout, shown on the six unfolded tiles of a cubed-sphere grid
   summary: >-
     Together with the climate modeling team at Ai2, we tested reservoir computing, a
     recurrent machine-learning method in which only the output layer is trained, for
