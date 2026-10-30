@@ -1,26 +1,16 @@
-<article class="media">
-	<div class="media-content">
-		<div class="content">
-		<p>
-		<em>{{ item.title }}</em>. 
-		{% for author in item.authors %}
-      {% if author == site.title %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% else %}.{% endif %}
-		{% endfor %}
-		{{ item.journal }}.
-		{{ item.year }}.
-		{% if item.misc %}
-      <b>{{ item.misc }}</b>
-		{% endif %}
-    {% if item.tags %}
-      {% for tag in item.tags %}
-        {% if tag.link %}
-          <a class="tag" href="{{ tag.link }}">{{ tag.tag }}</a>
-        {% else %}
-          <span class="tag">{{ tag.tag }}</span>
-        {% endif %}
-      {% endfor %}
-		{% endif %}
-		</p>
-		</div>
-	</div>
+<article class="pub">
+  <h3 class="pub-title">{{ item.title | strip }}</h3>
+  <p class="pub-authors">
+    {%- for author in item.authors -%}
+      {%- if author == site.title -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+  </p>
+  <p class="pub-meta">
+    <span class="muted">{{ item.journal | default: item.conference }} · {{ item.year }}</span>
+    {% if item.misc %}<strong>{{ item.misc }}</strong>{% endif %}
+    {% for tag in item.tags %}
+      {% if tag.link %}<a class="chip" href="{{ tag.link }}">{{ tag.tag }}</a>{% else %}<span class="chip">{{ tag.tag }}</span>{% endif %}
+    {% endfor %}
+  </p>
 </article>

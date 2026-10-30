@@ -1,0 +1,65 @@
+# Project cards on the home page, in display order (AIFS-COMPO has its own section).
+# `accent` picks the card colour: dust, smoke, sea, ozone or rain.
+- title: Filling the gap in the carbon monoxide record
+  when: ECMWF · 2026
+  accent: smoke
+  summary: >-
+    The MOPITT satellite stopped delivering carbon monoxide data in early 2025, and
+    the CAMS reanalysis loses quality without it. A machine-learning model learns the
+    difference between the reanalysis and a free-running control simulation, so the
+    record can be reconstructed where observations are missing.
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2602.15056
+
+- title: Precipitation downscaling that travels
+  when: Mila · 2024–2025
+  accent: rain
+  summary: >-
+    Generative models can sharpen coarse rainfall into local detail, but they are
+    usually trained on one region. RainShift is a benchmark that measures how well they
+    transfer across the globe, and a follow-up study shows what it takes to make them work
+    in places they have never seen.
+  links:
+    - label: RainShift
+      url: https://arxiv.org/abs/2507.04930
+    - label: Global transfer
+      url: https://arxiv.org/abs/2512.01400
+
+- title: Downscaling that respects physics
+  when: Mila · 2022–2023
+  accent: sea
+  summary: >-
+    Neural networks that add detail to climate data can quietly break conservation
+    laws. Hard-constraint layers guarantee that mass and energy add up exactly, and they
+    make the models more accurate as well as more trustworthy.
+  links:
+    - label: JMLR paper
+      url: https://jmlr.org/papers/v24/23-0158.html
+    - label: Code
+      url: https://github.com/RolnickLab/constrained-downscaling
+
+- title: Fast aerosol microphysics
+  when: PhD, Fraunhofer ITWM & Oxford · 2019–2022
+  accent: dust
+  summary: >-
+    Aerosol microphysics is one of the most expensive parts of a climate model. A
+    physics-informed neural network emulates it at a fraction of the cost while
+    keeping aerosol mass consistent.
+  links:
+    - label: Paper
+      url: https://www.cambridge.org/core/journals/environmental-data-science/article/physicsinformed-learning-of-aerosol-microphysics/C468660D2AEE8E25DC3BF507517FF91A
+    - label: Code
+      url: https://github.com/paulaharder/aerosol-microphysics-emulation
+
+- title: ClimateBench
+  when: Oxford · 2022
+  accent: ozone
+  summary: >-
+    A shared benchmark for machine-learning emulators of climate projections, so that
+    different approaches can be compared on the same data and the same scores.
+  links:
+    - label: Paper
+      url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954
+    - label: Code
+      url: https://github.com/duncanwp/ClimateBench

@@ -1,37 +1,37 @@
-# Welcome to Jekyll!
+# Site settings for paulaharder.github.io (Jekyll, built by GitHub Pages).
+# Content that changes often lives in _data/: projects.yml, news.yml,
+# publications.yml, navigation.yml and social.yml.
+# This file is not reloaded by `jekyll serve`; restart the server after editing it.
 
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Paula Harder
-tagline: Machine learning for Earth System Modeling
-email: paula.harder@mila.quebec
-twitter_username: PaulaHarder8
-github_username:  paulaharder
+tagline: AI for atmospheric composition forecasting
+email: paula.harder@ecmwf.int
+github_username: paulaharder
 twitter:
-  - username: PaulaHarder8
-description: Paula Harder is an incoming postdoc at Mila (Montreal), working with Prof. David Rolnick. 
+  username: PaulaHarder8
+description: >-
+  Paula Harder is a machine learning scientist at ECMWF, where she builds
+  AIFS-COMPO, a data-driven system that forecasts aerosols, reactive gases
+  and air quality around the globe.
 author: Paula Harder
 url: https://paulaharder.github.io
+lang: en
 
 # Reading Files
 include:
   - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
   - jekyll-redirect-from

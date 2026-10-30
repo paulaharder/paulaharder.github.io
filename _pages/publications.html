@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Publications
+lead: Papers and preprints, newest first. The full and most current list is on Google Scholar.
 permalink: /publications
 ---
-{% assign publications = site.data.publications | sort: 'year' | reverse %}
-{% for item in site.data.publications %}
-  {% include publication-item.html %}
+<p><a class="chip chip-strong" href="https://scholar.google.com/citations?hl=en&user=qh6LY4oAAAAJ">Google Scholar profile {% include icon.html name="external" %}</a></p>
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for year in by_year %}
+  <section class="pub-year">
+    <h2>{{ year.name }}</h2>
+    {% for item in year.items %}
+      {% include publication-item.html %}
+    {% endfor %}
+  </section>
 {% endfor %}
-  

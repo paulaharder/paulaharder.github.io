@@ -1,7 +1,0 @@
-### Bio
-
-### Research
-
-
-### Beyond research
-

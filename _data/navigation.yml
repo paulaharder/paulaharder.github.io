@@ -1,4 +1,8 @@
+- name: AIFS-COMPO
+  link: /#aifs-compo
+- name: Projects
+  link: /#projects
 - name: Publications
-  link: /publications.html
-- name: CV
-  link: /cv.html
+  link: /publications
+- name: About
+  link: /about

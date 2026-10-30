@@ -1,10 +1,56 @@
 ---
 layout: page
 title: About me
+eyebrow: Paula Harder
+lead: I turn machine learning into forecasts that people can use, with a focus on the composition of the atmosphere.
 permalink: /about
+redirect_from:
+  - /bio
+  - /photo
 ---
-{% capture about %}{% include about.md %}{% endcapture %}
-<div class="content">
-{{ about | markdownify }}
+<div class="about-grid">
+  <div>
+    <h2>Now</h2>
+    <p>
+      I'm a machine learning scientist at ECMWF, the European Centre for Medium-Range Weather
+      Forecasts, where I work for the Copernicus Atmosphere Monitoring Service (CAMS). I build
+      <a href="/#aifs-compo">AIFS-COMPO</a>, a data-driven system that forecasts aerosols,
+      reactive gases and air quality for the whole globe. The work runs from training data and
+      model design to evaluation against real-world observations, and it is built on
+      <a href="https://github.com/ecmwf/anemoi-core">Anemoi</a>, the open-source framework for
+      AI weather models.
+    </p>
+
+    <h2>Before</h2>
+    <ul class="timeline">
+      <li><span>Mila, Montréal</span>Postdoc with David Rolnick on generative models for downscaling weather and climate data.</li>
+      <li><span>PhD</span>Machine learning and computer science at Fraunhofer ITWM and the University of Kaiserslautern, together with the University of Oxford. I used deep learning to speed up climate models, supervised by Janis Keuper, Nicolas Gauger and Philip Stier.</li>
+      <li><span>Internships</span>NASA/ESA Frontier Development Lab, Mila, and the Allen Institute for AI.</li>
+      <li><span>Industry</span>Developer and data scientist in the automotive industry.</li>
+      <li><span>Tübingen</span>Master's degree in mathematics, specialising in numerical analysis with Christian Lubich.</li>
+    </ul>
+
+    <h2>What I care about</h2>
+    <p>
+      Machine learning that holds up in practice: models that respect physics, keep working
+      when conditions change, and get extreme events right, because those are the days when
+      a forecast matters most.
+    </p>
+  </div>
+
+  <aside class="about-side">
+    <figure class="portrait portrait-small">
+      <img src="/assets/images/profil3.jpg" alt="Portrait of Paula Harder" width="1401" height="2100">
+    </figure>
+    <p class="muted">Pronouns: she/her</p>
+    <a class="btn btn-primary btn-block" href="mailto:{{ site.email }}">Email me</a>
+    <a class="btn btn-ghost btn-block" href="/cv">CV</a>
+  </aside>
 </div>
 
+<h2>Selected papers</h2>
+{% assign featured = site.data.publications | where: "featured", true %}
+{% for item in featured %}
+  {% include publication-item.html %}
+{% endfor %}
+<p><a class="text-link" href="/publications">All publications {% include icon.html name="arrow" %}</a></p>

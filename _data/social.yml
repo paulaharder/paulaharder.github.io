@@ -1,44 +1,16 @@
-# https://fontawesome.com/
-# https://jpswalsh.github.io/academicons/
-- name: Google Scholar
-  link: https://scholar.google.com/citations?hl=en&user=qh6LY4oAAAAJ
-  icon:
-    source: ai
-    name: ai-google-scholar
-    type: ai
-- name: Semantic Scholar
-  link: https://www.semanticscholar.org/author/P.-Harder/1680027321
-  icon:
-    source: ai
-    name: ai-semantic-scholar
-    type: ai
-- name: Research Gate
-  link: https://www.researchgate.net/profile/Paula-Harder
-  icon:
-    source: ai
-    name: ai-researchgate-square
-    type: ai
+# Icons are inline SVGs drawn by _includes/icon.html; `icon` must be one of its names.
+- name: Email
+  link: mailto:paula.harder@ecmwf.int
+  icon: mail
 - name: GitHub
   link: https://github.com/paulaharder
-  icon:
-    source: fa
-    name: fa-github
-    type: fab
-- name: Email
-  link: mailto:paula.harder@mila.quebec
-  icon:
-    source: fa
-    name: fa-envelope
-    type: far
-- name: Twitter
-  link: https://twitter.com/PaulaHarder8
-  icon:
-    source: fa
-    name: fa-twitter
-    type: fab
+  icon: github
+- name: Google Scholar
+  link: https://scholar.google.com/citations?hl=en&user=qh6LY4oAAAAJ
+  icon: scholar
 - name: LinkedIn
   link: https://www.linkedin.com/in/paulaharder/
-  icon:
-    source: fa
-    name: fa-linkedin
-    type: fab
+  icon: linkedin
+- name: X / Twitter
+  link: https://twitter.com/PaulaHarder8
+  icon: x

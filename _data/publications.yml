@@ -1,3 +1,75 @@
+# Publication list, newest first. `featured: true` puts an entry in the short list on the
+# About page. Venue comes from `journal`, or `conference` when there is no journal.
+
+- title: "AIFS-COMPO: A Global Data-Driven Atmospheric Composition Forecasting System"
+  authors:
+    - Paula Harder
+    - Johannes Flemming
+    - Mihai Alexe
+    - Gert Mertes
+    - Baudouin Raoult
+    - Matthew Chantry
+  year: 2026
+  journal: arXiv preprint
+  featured: true
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2604.03300
+    - tag: ECMWF news
+      link: https://www.ecmwf.int/node/38405
+
+- title: "Reconstructing Carbon Monoxide Reanalysis with Machine Learning"
+  authors:
+    - Paula Harder
+    - Johannes Flemming
+  year: 2026
+  journal: arXiv preprint
+  featured: true
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2602.15056
+
+- title: "On Global Applicability and Location Transferability of Generative Deep Learning Models for Precipitation Downscaling"
+  authors:
+    - Paula Harder
+    - Christian Lessig
+    - Matthew Chantry
+    - Francis Pelletier
+    - David Rolnick
+  year: 2025
+  journal: arXiv preprint
+  featured: true
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2512.01400
+
+- title: "RainShift: A Benchmark for Precipitation Downscaling Across Geographies"
+  authors:
+    - Paula Harder
+    - Luca Schmidt
+    - Francis Pelletier
+    - Nicole Ludwig
+    - Matthew Chantry
+    - Christian Lessig
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  year: 2025
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2507.04930
+
+- title: "Climate Variable Downscaling with Conditional Normalizing Flows"
+  authors:
+    - Christina Winkler
+    - Paula Harder
+    - David Rolnick
+  year: 2024
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2405.20719
+
 - title: "A Benchmark Dataset for Meteorological Downscaling"
   authors:
     - Michael Langguth
@@ -164,6 +236,7 @@
     - Campbell Watson
     - David Rolnick
   year: 2023
+  featured: true
   journal: Journal of Machine Learning Research (JMLR)
   tags:
     - tag: JMLR
@@ -250,6 +323,7 @@
     - Nicolas R. Gauger
     - Janis Keuper
   year: 2022
+  featured: true
   journal: Environmental Data Science
   volume: 1
   pages: e20
